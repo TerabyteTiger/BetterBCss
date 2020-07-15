@@ -1,0 +1,18 @@
+{
+  "name": "BC CSS Injection",
+  "version": "1.1",
+  "description": "Improve BC with rainbows, images, easier to read tables, and less wonky table scrolling",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "css": ["styles.css"],
+      "js": ["content.js"],
+      "matches": ["yourBusinessCentralUrlGoesHere"]
+    }
+  ],
+  "web_accessible_resources": ["iframeStyles.css"],
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": ["activeTab", "storage"]
+}

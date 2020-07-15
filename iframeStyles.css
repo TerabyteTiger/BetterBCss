@@ -1,0 +1,66 @@
+/*! The fun stuff */
+
+/* Add Nick Cage to gutters */
+main > div.ms-nav-layout-gutter-right:last-child,
+main > div.ms-nav-layout-gutter-left:first-child {
+  background: url(https://images-na.ssl-images-amazon.com/images/I/61Wo915nuTL._AC_SL1000_.jpg);
+  background-repeat: repeat;
+  background-size: contain;
+  position: sticky;
+  top: 0;
+}
+
+/** Set nav bg */
+/* nav > * {
+  background: hsl(55, 100%, 85%);
+} */
+
+.ms-nav-layout-commandbar {
+  background: linear-gradient(90deg, #fcff65 0%, #5df3ff 100%);
+}
+
+span.ms-navbar-node-caption {
+  color: black;
+}
+
+/** Set "Tell me what you want to do" colorings */
+.task-dialog-header {
+  background: linear-gradient(
+    135deg,
+    rgb(110, 252, 181) 0%,
+    rgb(148, 169, 237) 100%
+  );
+  margin-bottom: 20px;
+}
+
+.task-dialog-header *,
+.task-dialog-header *::before {
+  color: black !important;
+  background-color: transparent;
+}
+
+/*! The stuff that actually makes the website not suck */
+/*! The stuff that actually makes the website not suck */
+/*! The stuff that actually makes the website not suck */
+
+/* Make tables useable */
+tr:nth-child(even) {
+  background: hsl(164, 100%, 95%) !important;
+}
+
+tr:nth-child(odd) {
+  background: hsl(164, 0%, 100%) !important;
+}
+
+td {
+  border-top: none !important;
+}
+
+/* Stop the stupid scroll animation */
+.ms-nav-grid th:not(.show-freeze-pane-padding) {
+  transition: none;
+}
+
+.ms-nav-layout-worksheet-middle {
+  height: 100%;
+}

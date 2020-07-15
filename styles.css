@@ -1,0 +1,11 @@
+#product-menu-bar {
+  background: linear-gradient(
+    135deg,
+    rgb(247, 13, 97) 0%,
+    rgb(102, 91, 165) 100%
+  ) !important;
+}
+
+#product-menu-bar * {
+  border-color: transparent !important;
+}
