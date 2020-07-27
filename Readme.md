@@ -1,6 +1,6 @@
 # Better BCss
 
-Improve BC with rainbows, gutter images, easier to read tables, and less wonky table scrolling!
+Improve Business Central with rainbows, gutter images, easier to read tables, and less wonky table scrolling!
 
 ## Setup
 
